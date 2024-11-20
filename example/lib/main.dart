@@ -39,7 +39,7 @@ class _MyAppState extends State<MyApp> {
     OneSignal.consentRequired(_requireConsent);
 
     // NOTE: Replace with your own app ID from https://www.onesignal.com
-    OneSignal.initialize("77e32082-ea27-42e3-a898-c72e141824ef");
+    OneSignal.initialize("4de423ed-6dbc-4e43-afd2-1befd13c8a40");
 
     OneSignal.LiveActivities.setupDefault();
     // OneSignal.LiveActivities.setupDefault(options: new LiveActivitySetupOptions(enablePushToStart: false, enablePushToUpdate: true));
